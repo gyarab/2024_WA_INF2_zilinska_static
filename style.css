@@ -1,5 +1,125 @@
+body{
+    background-color: rgb(255, 222, 247);
+}
+
+#img1 {
+    width: 5cm;
+    height: auto;
+    
+}
+.div1{
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/featured/blank-white-background-xbsfzsltjksfompa.jpg");
+    border: 3px dotted rgb(192, 0, 96);
+    border-radius: 10px; 
+
+
+}
+
+h1{
+    text-align: center; 
+    color: hotpink;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: underline;   
+    text-shadow: 2px 2px 5px gold; 
+}
+
+h2{
+    color: rgb(255, 107, 198);
+    text-indent: 1.5cm;
+}
+
+ul > li{
+    color: rgb(185, 16, 120);
+}
+
+#h3a {
+    color: navy;
+} 
+#h3b {
+    color: navy;
+} 
+#h3c {
+    color: navy;
+} 
+
+.div2 p {
+    color: rgb(52, 108, 186);
+}
+
+
+.h3d{
+    color: rgb(164, 4, 92);
+}
+
+.div3{
+    color: palevioletred;
+    
+}
+
 table,th,td{
-    border: 1px solid rgb(75, 0, 85);
+    border: 2px rgb(192, 0, 96); 
     border-collapse: collapse;
     background-color: rgb(250, 137, 175);
+    margin: 30px auto;
+    padding: 10px;
+    text-transform: uppercase;
+    border-style: dotted;
+}
+
+.th{
+    color: rgb(125, 9, 86);
+}
+
+.td1{
+   color: rgb(223, 76, 188);
+}
+
+.td2{
+    color: rgb(227, 33, 146);
+}
+
+
+
+.button{
+    color: hotpink;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+    transition: background-color 0.3s;
+    background-color: white;
+    border-radius: 5px;
+    border: 1.5px dotted rgb(192, 0, 96);
+
+}
+
+.button:hover { color: navy; } 
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.gallery-image {
+    width: 350px; 
+    height: auto; 
+    border-radius: 10px; 
+    transition: transform 0.3s; 
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); 
+}
+
+figcaption {
+    text-align: center; 
+    margin-top: 5px; 
+    font-weight: bolder; 
+    color: navy;
+    text-decoration: underline;
 }
