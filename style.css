@@ -12,8 +12,6 @@ body{
     background-image: url("https://wallpapers.com/images/featured/blank-white-background-xbsfzsltjksfompa.jpg");
     border: 3px dotted rgb(192, 0, 96);
     border-radius: 10px; 
-
-
 }
 
 h1{
@@ -66,7 +64,9 @@ table,th,td{
     padding: 10px;
     text-transform: uppercase;
     border-style: dotted;
+  
 }
+
 
 .th{
     color: rgb(125, 9, 86);
@@ -107,6 +107,7 @@ table,th,td{
 
 .gallery-image {
     width: 350px; 
+    max-width: 100%;
     height: auto; 
     border-radius: 10px; 
     transition: transform 0.3s; 
@@ -122,4 +123,38 @@ figcaption {
     font-weight: bolder; 
     color: navy;
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        text-indent: 1cm;
+    }
+
+    .gallery {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .gallery-image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .gallery {
+        justify-content: space-around; 
+        gap: 15px;
+    }
+
+    .gallery-image {
+        width: 320px; 
+    }
 }
